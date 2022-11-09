@@ -1,0 +1,67 @@
+.main-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    margin: 20px auto;
+
+ }
+
+.log-in-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 30px 30px 30px;
+}
+
+.text{
+    text-align: center;
+ }
+
+ .first-button{
+    width: 240px;
+    padding: 10px;
+    background-color: #5890FF;
+    color:white;
+    border: none;
+    border-radius: 5px;
+ }
+
+ .first-button:hover{
+    background-color: #6082c7;
+
+ }
+
+ .second-button{
+    padding: 15px;
+    background-color: rgba(6, 229, 6, 0.962);
+    color:white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px;
+ }
+
+ .second-button:hover{
+    background-color: rgba(124, 211, 124, 0.962);
+ }
+
+ .form-input{
+    width: 220px;
+    padding: 10px;
+    background-color:rgba(255, 253, 253, 0.911);
+    border: white;
+ }
+ 
+ .form-input:focus-visible{
+    outline: none;
+ }
+
+.pwd-reset{
+    text-decoration: none;
+ }
